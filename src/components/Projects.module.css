@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.projects {
+  animation: fadein 1s ease-in;
+}
+.containerbox {
+  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+  margin-top: 5%;
+  padding: 7% 15%;
+}
+h3{
+    font-size:2rem;
+    color:rgb(3, 3, 3);
+    transform:tr
+}
+
+.project {
+  min-width: 100%;
+
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  outline: none;
+  min-height:50vh;
+  
+}
+.project > img {
+  border-radius: 0;
+  border: 0;
+  min-width:40%;
+  min-height:100%;
+  max-width:40%;
+  flex:2;
+  
+}
+
+button{
+    margin-right:5px;
+}
+
+.projectinfo{
+    margin:1rem 0;
+    max-width:50%;
+    max-height: 5%;;
+    flex:1;
+}
+.projectinfo>.info{
+    margin-top: 3rem;
+    line-height: 2rem;;
+}
+.projectinfo>.tech{
+    color:rgb(106, 106, 236);
+    text-emphasis:initial;
+    font-size: 1.2rem;
+}
+.project>img{
+    max-width:20%;
+    max-height:30%;
+}
+button>a{
+    color:rgb(41, 39, 39);
+    text-decoration: none;
+}
+button:hover>a{
+    color:white;
+}
+button>a:hover{
+    text-decoration: none;
+    color:white;
+}
+.tech{
+    color:blue
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+form{
+    display: inline-block;
+}
+@media (max-width:845px){
+    
+      .containerbox{
+          padding:0 5%;
+          width:100vw;
+      }
+      .project{
+          min-width:100vw;
+      }
+      
+      .project>img{
+          transform: scale(0.5);
+      }
+}
