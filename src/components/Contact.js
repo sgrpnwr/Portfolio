@@ -14,13 +14,13 @@ const Contact = () => {
                 Whatsapp
               </button>
             </form>
-            <form target="_blank" action="tel:8629010215">
+            <form target="_system" action="tel:8629010215">
               <button>
                 <i class="fas fa-phone-alt fa-3x"></i>
                    Call
               </button>
             </form>
-            <form target="_blank" action="mailto:sagarpanwarsd@gmail.com">
+            <form target="_system" action="mailto:sagarpanwarsd@gmail.com">
               <button>
                 <i class=" fas fa-envelope-open-text fa-3x"></i>
                 E-mail
