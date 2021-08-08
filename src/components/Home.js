@@ -5,7 +5,7 @@ const Home = () => {
   return <div className={style.container}>
 
 
-      <img className={style.dp} src="https://i.ibb.co/TWv1Sdj/dp.png" alt="" height="500" ></img>
+      <img className={style.dp} src="https://i.ibb.co/dmG6nvb/sagar-black.png" alt="" height="500" ></img>
       <div className={style.content}>
           <h1>Hello</h1>
           <h4 className={style}>A Bit About Me</h4> 

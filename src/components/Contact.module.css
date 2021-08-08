@@ -42,16 +42,16 @@
     justify-content: space-around;
     align-items: center;
     object-fit: contain;
-    border: 5px solid white;
-    border-radius:20% 20% 0 0 ;
     border-bottom: 0;
-    background-color: rgb(240, 209, 198);
+    background-color: rgb(238, 225, 221);
+    box-shadow:5% 10% 10% grey;
+
 
 }
 button{
     outline: none;
     border:none;
-    background-color: rgb(240, 209, 198);
+    background-color: rgb(238, 225, 221);
     display:flex;
     flex-direction: column-reverse;
     justify-content: space-between;
