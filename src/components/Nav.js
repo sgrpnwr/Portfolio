@@ -38,6 +38,11 @@ const Nav = () => {
               Photography
             </Link>
           </li>
+          <li className="nav-item">
+          <Link to="/contact"className="nav-link" href="/">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

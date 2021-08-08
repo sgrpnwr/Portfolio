@@ -1,10 +1,11 @@
 import style from "./Home.module.css";
 import {Link} from "react-router-dom";
+import Contact from "./Contact"
 const Home = () => {
   return <div className={style.container}>
 
 
-      <img className={style.dp} src="https://pbs.twimg.com/profile_images/450469406809030657/uAHhfcxz.jpeg" alt="" height="500" ></img>
+      <img className={style.dp} src="dp.png" alt="" height="500" ></img>
       <div className={style.content}>
           <h1>Hello</h1>
           <h4 className={style}>A Bit About Me</h4> 
@@ -12,7 +13,7 @@ const Home = () => {
             <div className={style.circles}>
             <Link style={{ textDecoration: 'none' }} to="/projects"><div className={`${style.circle} ${style.fep}`}>WEB Projects</div></Link>
             <Link style={{ textDecoration: 'none' }} to="/photography"><div className={`${style.circle} ${style.photography}`}>Photography</div></Link>
-            <Link style={{ textDecoration: 'none' }} to="/photography"><div className={`${style.circle} ${style.contact}`}>Contact</div></Link>
+            <Link style={{ textDecoration: 'none' }} to="/contact"><div className={`${style.circle} ${style.contact}`}>Contact</div></Link>
             </div>
       </div>
       

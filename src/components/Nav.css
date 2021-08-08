@@ -35,7 +35,11 @@ body{
 
   @media (max-width:650px) {
       .navbar{
-          padding:1rem;
+          padding:15px;
+          padding-bottom:0;
+      }
+      .designation{
+          display: none;
       }
       
   }
