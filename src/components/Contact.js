@@ -5,7 +5,7 @@ const Contact = () => {
       <div className={style.card}>
         <div className={style.top}>
           <div className={style.picture}>
-            <img src="dp.png" alt=""></img>
+            <img src="https://i.ibb.co/TWv1Sdj/dp.png" alt=""></img>
           </div>
           <div className={style.contact_methods}>
             <form target="_blank" action="https://wa.me/+918629010215/?text=Hey Sagar!">
