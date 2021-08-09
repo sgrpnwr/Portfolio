@@ -33,7 +33,7 @@ const allProjects=[
 },
 {
     title:"Movie Blog Website",
-    info: "Allowed the user to post a movie recommendation via HTML form and rerendered the home page with the updated list of movie recommendation using EJS, Added extra feature to read the full review on the separate page using Router parameter in NODE JS.",
+    info: "Allowed the user to post a movie recommendation via HTML form and rendered the home page with the updated list of movie recommendation using EJS, Added extra feature to read the full review on the separate page using Router parameter in NODE JS.",
     image:"https://i.ibb.co/GCR0P6v/movie.png",
     link:"https://polar-sea-60600.herokuapp.com",
     tech:"NodeJS",
