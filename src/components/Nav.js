@@ -1,6 +1,6 @@
 import React from "react";
 import "./Nav.css";
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -24,24 +24,24 @@ const Nav = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul id="pages" className="navbar-nav ml-auto items">
           <li className="nav-item active">
-            <Link to="/"className="nav-link" href="/">
+            <NavLink activeStyle={{textDecoration:"none"}} to="/"className="nav-link" href="/">
               Home
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/projects" className="nav-link" href="/">
+            <NavLink activeStyle={{fontWeight:"bolder",color:"#6E85B2",textDecoration:"none"}} to="/projects" className="nav-link" href="/">
               Web Projects 
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-          <Link to="/photography"className="nav-link" href="/">
+          <NavLink activeStyle={{fontWeight:"bolder",color:"#6E85B2",textDecoration:"none"}} to="/photography"className="nav-link" href="/">
               Photography
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-          <Link to="/contact"className="nav-link" href="/">
+          <NavLink activeStyle={{fontWeight:"bolder",color:"#6E85B2",textDecoration:"none"}} to="/contact"className="nav-link" href="/">
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>
