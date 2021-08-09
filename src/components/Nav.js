@@ -1,6 +1,9 @@
 import React from "react";
 import "./Nav.css";
 import {NavLink} from "react-router-dom";
+const style={
+  activelink:{textDecoration:"none",fontWeight:"bold"}
+}
 
 const Nav = () => {
   return (
@@ -24,22 +27,22 @@ const Nav = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul id="pages" className="navbar-nav ml-auto items">
           <li className="nav-item active">
-            <NavLink activeStyle={{textDecoration:"none"}} to="/"className="nav-link" href="/">
+            <NavLink activeStyle={style.activelink} exact to="/"className="nav-link" href="/">
               Home
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink activeStyle={{fontWeight:"bolder",color:"#6E85B2",textDecoration:"none"}} to="/projects" className="nav-link" href="/">
+            <NavLink activeStyle={style.activelink} to="/projects" className="nav-link" href="/">
               Web Projects 
             </NavLink>
           </li>
           <li className="nav-item">
-          <NavLink activeStyle={{fontWeight:"bolder",color:"#6E85B2",textDecoration:"none"}} to="/photography"className="nav-link" href="/">
+          <NavLink activeStyle={style.activelink} to="/photography"className="nav-link" href="/">
               Photography
             </NavLink>
           </li>
           <li className="nav-item">
-          <NavLink activeStyle={{fontWeight:"bolder",color:"#6E85B2",textDecoration:"none"}} to="/contact"className="nav-link" href="/">
+          <NavLink activeStyle={style.activelink} to="/contact"className="nav-link" href="/">
               Contact
             </NavLink>
           </li>

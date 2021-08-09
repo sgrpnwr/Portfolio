@@ -21,9 +21,7 @@ h1 {
   font-size: 5rem;
 }
 .dp {
-  border: 10px solid rgb(88, 84, 84);
   border-radius: 50%;
-  background-blend-mode: soft-light;
 
 }
 .circles {
