@@ -9,21 +9,19 @@ const Contact = () => {
           </div>
           <div className={style.contact_methods}>
             <form target="_blank" action="https://wa.me/+918629010215/?text=Hey Sagar!">
-              <button>
-                <i class="fab fa-whatsapp fa-3x"></i>
-                Whatsapp
+              <button className={`${style.whatsapp} ${style.contactbtn} `}>
+                <i class="whatsapp fab fa-whatsapp fa-2x"></i>
               </button>
             </form>
-            <form target="_system" action="tel:8629010215">
-              <button>
-                <i class="fas fa-phone-alt fa-3x"></i>
-                   Call
+            <form target="_system" action="https://instagram.com/sagar_panwar">
+              <button className={`${style.instagram} ${style.contactbtn} `}>
+                <i id="insta" class="instagram fab fa-instagram fa-2x"></i>
+                   
               </button>
             </form>
-            <form target="_system" action="mailto:sagarpanwarsd@gmail.com">
-              <button>
-                <i class=" fas fa-envelope-open-text fa-3x"></i>
-                E-mail
+            <form target="_system" action="https://linkedin.com/in/sagarpanwarsp">
+              <button className={`${style.linkedin} ${style.contactbtn} `}>
+                <i class="fab fa-linkedin-in fa-2x"></i>
               </button>
             </form>
           </div>

@@ -6,7 +6,7 @@ const allProjects=[
 
 {
     title:"Music Player",
-    info: info,
+    info: "Made a music player with the interactive UI for the easy access for user.This application can be used to play mp3 songs. Apart from standard music player features, also worked on some extra features such as Autoplay/Loop.",
     image:"https://i.ibb.co/x7Yrh8f/music.png",
     link:"https://sgrpnwr.github.io/MusicPlayer",
     tech:"JQuery",
@@ -15,7 +15,7 @@ const allProjects=[
 },
 {
     title:"Recipe App",
-    info: info,
+    info: "Fetched data from edamam API and rendered all the data using ReactJS.",
     image:"https://i.ibb.co/Nsmm0Cg/recipe.png",
     link:"https://apnikitchen.herokuapp.com",
     tech:"ReactJS",
@@ -24,7 +24,7 @@ const allProjects=[
 },
 {
     title:"Covid Tracker",
-    info: info,
+    info: "Fetched data from covid19india.org API and rendered all the data using ReactJS.",
     image:"https://i.ibb.co/MDwF4Kw/covid.png",
     link:"https://cvd19india.herokuapp.com",
     tech:"ReactJS",
@@ -33,7 +33,7 @@ const allProjects=[
 },
 {
     title:"Movie Blog Website",
-    info: info,
+    info: "Allowed the user to post a movie recommendation via HTML form and rerendered the home page with the updated list of movie recommendation using EJS, Added extra feature to read the full review on the separate page using Router parameter in NODE JS.",
     image:"https://i.ibb.co/GCR0P6v/movie.png",
     link:"https://polar-sea-60600.herokuapp.com",
     tech:"NodeJS",
