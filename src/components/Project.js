@@ -13,7 +13,7 @@ const Project = (props) => {
         <p className={styles.info}>{props.project.info}</p>
         <form target="_blank" action={props.project.link}>
           <button className="btn btn-outline-dark">
-            <i className="fas fa-external-link-alt"></i> See Project
+            <i className="fas fa-share-square"></i> See Project
           </button>
         </form>
         <form target="_blank" action={props.project.github}>

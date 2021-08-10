@@ -59,12 +59,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: bigger 2s;
 }
-button:hover{
-    color:white;
+button:hover {
+  color: white;
 }
 .instagram:hover {
-  background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+.instagram{
+  animation: bigger-instagram 2s;
+  
+}
+.whatsapp{
+  animation: bigger-whatsapp 2s;
+  
+}
+.linkedin{
+  animation: bigger-linkedin 2s;
   
 }
 .whatsapp:hover {
@@ -91,6 +110,76 @@ button:hover{
     opacity: 1;
   }
 }
+@keyframes bigger-linkedin {
+  0% {
+    transform: rotate(270deg);
+    background-color: #0e76a8;
+    color:#fff;
+
+  }
+  80% {
+    transform: rotate(20deg);
+    background-color: #0e76a8;
+    color:#fff;
+
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bigger-whatsapp {
+  0% {
+    transform: rotate(270deg);
+    background-color: #25d366;
+    color:#fff;
+
+  }
+  80% {
+    transform: rotate(20deg);
+    background-color: #25d366;
+    color:#fff;
+
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bigger-instagram {
+  0% {
+    color:#fff;
+
+    transform: rotate(270deg);
+    background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  }
+  80% {
+    color:#fff;
+
+    transform: rotate(20deg);
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+
+    );
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media (max-width: 600px) {
   .card {
     width: 80%;
