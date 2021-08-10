@@ -16,7 +16,7 @@
   margin-left: 10%;
   max-height: 80vh;
   letter-spacing: 1px;
-  animation: comefromright 2s ease-in-out;
+  /* animation: comefromright 2s ease-in-out; */
 }
 h1 {
   font-size: 5rem;
@@ -31,6 +31,7 @@ h1 {
 .circles {
   display: flex;
   transform: translateX(-5%);
+  width:100%;
 }
 .circle {
   width: 150px;
@@ -86,25 +87,23 @@ h1 {
   
   .container {
     padding:50px 0;
-  flex-wrap: wrap-reverse;
 
     
     
   }
   .dp{
     width:280px;
-    animation:comefromtop 2s ease-in-out;
     height:auto;
-    margin-top: 10px;
+    margin-top: 50px;
     
   }
   .content{
-    width:80vw;
+    width:100vw;
     margin-left:0;
-    margin-top:30px
+    padding:2vh 10vw;
   }
   .circles{
-    justify-content: space-around;
+    justify-content: space-between;
     
   }
   .circle{
