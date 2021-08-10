@@ -24,6 +24,7 @@ h1 {
 }
 .dp {
   border-radius: 50%;
+  animation:enlarge 1s;
 
 }
 .circles {
@@ -79,6 +80,16 @@ h1 {
   
   100% {
     opacity: 1;
+  }
+}
+@keyframes enlarge {
+  0% {
+    transform: rotate(-10deg);
+  }
+  
+  100% {
+    transform: rotate(0);
+
   }
 }
 @media (max-width: 800px) {
