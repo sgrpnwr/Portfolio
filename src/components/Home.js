@@ -2,6 +2,8 @@ import style from "./Home.module.css";
 import {Link} from "react-router-dom";
 import Contact from "./Contact"
 const Home = () => {
+    window.scrollTo(0, 0);
+
   return <div className={style.container}>
 
 
