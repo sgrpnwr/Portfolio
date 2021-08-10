@@ -45,7 +45,7 @@ font-weight: bolder;
 }
 @media (max-width:750px) {
     .footer{
-    padding:3% 8%;
+    padding:0 8%;
     flex-direction: column;
     align-items: flex-start;
     
