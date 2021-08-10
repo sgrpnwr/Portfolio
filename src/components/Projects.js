@@ -46,7 +46,9 @@ const allProjects=[
 
 ]
 
-const Projects = () => {
+const Projects = () => 
+  window.scrollTo(0, 0);
+
   return (
     <div className={styles.projects}>
       <h2>Projects</h2>
