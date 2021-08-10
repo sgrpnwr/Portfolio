@@ -36,8 +36,8 @@ body{
 
   @media (max-width:650px) {
       .navbar{
-          padding:15px;
-          padding-bottom:0;
+          padding: 8px 15px;
+          
       }
       .designation{
           display: none;
