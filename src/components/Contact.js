@@ -1,5 +1,7 @@
 import style from "./Contact.module.css";
 const Contact = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div className={style.contactbox}>
       <div className={style.card}>

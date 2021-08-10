@@ -3,6 +3,7 @@
 import "./Photography.css"
 
 const Photography=()=>{
+  window.scrollTo(0, 0);
     return <>
     <div class="cards-list">
     <form target="_blank" action="https://vsco.co/sagarpanwar/gallery">
