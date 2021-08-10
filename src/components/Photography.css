@@ -86,9 +86,7 @@ h1{
 }
 
 @media (max-width: 500px) {
-  .cards-list {
-    /* On small screens, we are no longer using row direction but column */
-  }
+  
   .card_image>h3{
     font-size: 1rem;
     margin-top: 1rem;

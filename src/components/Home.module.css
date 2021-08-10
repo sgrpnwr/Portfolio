@@ -24,6 +24,7 @@ h1 {
 }
 .dp {
   border-radius: 50%;
+  animation:enlarge 1s;
 
 }
 .circles {
