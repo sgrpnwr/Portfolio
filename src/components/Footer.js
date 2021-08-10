@@ -1,8 +1,7 @@
 import style from "./Footer.module.css";
 
 const Footer = () => {
-  return (
-    <div className={style.footer}>
+  return <div className={style.footer}>
       <div className={style.footerinfo}>
         <h3 className={style.infohead}>Phone</h3>
 
@@ -25,6 +24,6 @@ const Footer = () => {
         
       </div>
     </div>
-  );
+  
 };
 export default Footer;
