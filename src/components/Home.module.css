@@ -16,12 +16,10 @@
   margin-left: 10%;
   max-height: 80vh;
   letter-spacing: 1px;
-  /* animation: comefromright 2s ease-in-out; */
 }
 h1 {
   font-size: 5rem;
   font-weight:bolder;
-  font-family: 'Work Sans', sans-serif;
 
 }
 .dp {
