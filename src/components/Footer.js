@@ -1,6 +1,8 @@
 import style from "./Footer.module.css";
 
 const Footer = () => {
+    window.scrollTo(0, 0);
+
   return <div className={style.footer}>
       <div className={style.footerinfo}>
         <h3 className={style.infohead}>Phone</h3>
