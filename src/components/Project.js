@@ -1,5 +1,7 @@
 import styles from "./Projects.module.css";
 const Project = (props) => {
+    window.scrollTo(0, 0);
+
   return (
       <>
     <div className={styles.project}>
