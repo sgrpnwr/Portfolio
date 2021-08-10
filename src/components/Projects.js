@@ -46,7 +46,7 @@ const allProjects=[
 
 ]
 
-const Projects = () => 
+const Projects = () => {
   window.scrollTo(0, 0);
 
   return (
