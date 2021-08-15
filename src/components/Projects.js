@@ -16,7 +16,7 @@ const allProjects=[
     title:"Recipe App",
     info: "Fetched data from edamam API and rendered all the data using ReactJS.",
     image:"https://i.ibb.co/Nsmm0Cg/recipe.png",
-    link:"https://apnikitchen.herokuapp.com",
+    link:"https://recipeapp-2c554.web.app",
     tech:"ReactJS",
     github:"https://github.com/sgrpnwr/recipesearch",
     icon:"fab fa-react",
