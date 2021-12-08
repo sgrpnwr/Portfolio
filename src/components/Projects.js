@@ -22,6 +22,15 @@ const allProjects=[
     icon:"fab fa-react",
 },
 {
+  title:"Todo List App",
+  info: "Made a standard Todo List app using CSS animations and managed state using Redux",
+  image:"https://i.ibb.co/6sz40Hq/todoicon.png",
+  link:"https://todolist-117b5.web.app",
+  tech:"ReactJS",
+  github:"https://github.com/sgrpnwr/Todo-List",
+  icon:"fab fa-react",
+},
+{
     title:"NewsLetter Signup using MailChimp API",
     info: "Posted data using MailChimp API. Allowed the user to submit a form by entering their name and email address.After the successfully submission, the user will be subscribed to the newsletter",
     image:"https://i.ibb.co/fQhyZZP/mailchimp.png",
