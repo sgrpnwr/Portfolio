@@ -23,7 +23,7 @@ const allProjects=[
 },
 {
   title:"Todo List App",
-  info: "Made a standard Todo List app using CSS animations and managed state using Redux",
+  info: "Made a standard Todo List app using ReactJS and CSS animations",
   image:"https://i.ibb.co/6sz40Hq/todoicon.png",
   link:"https://todolist-117b5.web.app",
   tech:"ReactJS",
